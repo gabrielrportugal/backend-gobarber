@@ -8,7 +8,7 @@ import {
   JoinColumn,
 } from 'typeorm';
 
-import User from './User';
+import User from '@modules/users/infra/typeorm/entities/User';
 
 // Nome passado por parâmetro se refere ao nome da tabela
 @Entity('appointments')
